@@ -1,0 +1,4 @@
+
+#!/usr/bin/env bash
+powershell.exe -NoProfile -ExecutionPolicy Bypass \
+  -File "$(cygpath -w "$HOME/bin/cmatrix.ps1")" "$@"
